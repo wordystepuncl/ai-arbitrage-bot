@@ -18,7 +18,7 @@ A live, interactive research terminal for **ETH / BTC / BNB**.
 [Open the local HTML demo](#open-the-single-file-demo)
 
 ![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-bca4f4?style=flat-square&labelColor=19171f)
-![No runtime dependencies](https://img.shields.io/badge/dependencies-0-a4d8ba?style=flat-square&labelColor=19171f)
+![No runtime dependencies](https://img.shields.io/badge/dependencies-4-a4d8ba?style=flat-square&labelColor=19171f)
 ![License MIT](https://img.shields.io/badge/license-MIT-bca4f4?style=flat-square&labelColor=19171f)
 
 </div>
