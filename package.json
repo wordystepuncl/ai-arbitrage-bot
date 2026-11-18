@@ -1,0 +1,19 @@
+{
+  "name": "parallax-ai-arbitrage-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scan live crypto arbitrage spreads for BTC, ETH and BNB on Binance, OKX and Gate. Compare bid and ask prices and estimate route returns after fees, slippage and transfer costs.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node --check src/market.js && node --check web/app.js && node --check scripts/set-pages-url.mjs && node --check scripts/dev.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "pages:links": "node scripts/set-pages-url.mjs"
+  }
+}
