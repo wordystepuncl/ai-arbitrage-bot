@@ -9,7 +9,7 @@ function replaceRequired(text, pattern, replacement) {
   return text.replace(pattern, replacement);
 }
 
-export async function writePortableDemo(root, archiveName, archive) {
+export async function writePortableDemo(root) {
   const read = (name) => readFile(new URL(`dist/client/${name}`, root), 'utf8');
   const [page, styles, favicon, app] = await Promise.all([
     read('index.html'), read('styles.css'), read('favicon.svg'), read('app.js'),
@@ -35,10 +35,6 @@ export async function writePortableDemo(root, archiveName, archive) {
   let html = replaceRequired(page, /<link rel="stylesheet" href="\.\/styles\.css">/, () => `<style>\n${styles}\n</style>`);
   html = replaceRequired(html, /href="\.\/favicon\.svg"/, () => `href="${dataUrl('image/svg+xml', favicon)}"`);
   html = replaceRequired(html, /href="\.\/"/, () => 'href="#top"');
-  html = replaceRequired(html, /href="\.\/downloads\/([^"]+)"/, (_, name) => {
-    if (name !== archiveName) throw new Error(`Unexpected download archive: ${name}`);
-    return `href="${dataUrl('application/zip', archive)}"`;
-  });
   html = replaceRequired(html, /<script type="module" src="\.\/app\.js"><\/script>/, () => `<script>\n${script}\n</script>`);
   await writeFile(new URL('DEMO.html', root), html);
 }

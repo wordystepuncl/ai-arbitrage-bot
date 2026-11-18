@@ -19,7 +19,7 @@ export async function preparePages(root,{baseUrl,repository}={}){
  if(!url)return null;
  const config=JSON.parse(await readFile(resolve(root,'download-config.json'),'utf8'));
  const readmePath=resolve(root,'README.md');let text=await readFile(readmePath,'utf8');
- const block=`<!-- pages-links:start -->\n[![VIEW DEMO](docs/view-demo.svg)](${url})\n[![DOWNLOAD](docs/download-project.svg)](${new URL('downloads/'+config.archiveName,url).href})\n\n[Live demo](${url}) · [GitHub Pages setup](docs/GITHUB_PAGES.md)\n<!-- pages-links:end -->`;
+ const block=`<!-- pages-links:start -->\n[![VIEW DEMO](docs/view-demo.svg)](${url})\n[![DOWNLOAD](docs/download-project.svg)](${config.downloadUrl})\n\n[Live demo](${url}) · [GitHub Pages setup](docs/GITHUB_PAGES.md)\n<!-- pages-links:end -->`;
  if(!text.includes('<!-- pages-links:start -->'))throw Error('README Pages links marker is missing');
  text=text.replace(/<!-- pages-links:start -->[\s\S]*?<!-- pages-links:end -->/,()=>block);
  await writeFile(readmePath,text);
